@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79C4D9AE-2ABA-4295-B196-284A1A23D63E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PDA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7E4E5A2-6487-4338-AF7A-359C5ABFF976</key>
+		<string>ssh://github.com/zcfree8/MSR_PDA.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PDA.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92CC9ECB-9089-4822-81A2-C82D863248AB</key>
+		<string>../../PDA</string>
+		<key>C7E4E5A2-6487-4338-AF7A-359C5ABFF976</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zcfree8/MSR_PDA.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7E4E5A2-6487-4338-AF7A-359C5ABFF976</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7E4E5A2-6487-4338-AF7A-359C5ABFF976</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MSR_PDA</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92CC9ECB-9089-4822-81A2-C82D863248AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PDA</string>
+		</dict>
+	</array>
+</dict>
+</plist>

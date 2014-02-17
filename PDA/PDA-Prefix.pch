@@ -1,0 +1,50 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "ASIHTTPRequest.h"
+    #import "ASIFormDataRequest.h"
+    #import "ZBarSDK.h"
+    //HOME:192.168.1.102 COMPANY:192.168.0.44
+    #define URLIP @"http://192.168.0.44/MSR_PDAWebService/MSR_PDAWebService.asmx"
+    #define NameSpace @"http://tempuri.org/"
+    #define Envelopesoap @"xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\""
+
+    #define UserParas @"USERNAME,C,001;DBAIAS,C,12;LANGUAGE,I,0;PRGKEY,C,"
+    #define ERROR_INFO(ErrorDomain,ErrorCode,ErroeDescript) [[NSError alloc] initWithDomain:[NSString stringWithFormat:ErrorDomain] code:ErrorCode userInfo:[NSDictionary dictionaryWithObject:ErroeDescript forKey:NSLocalizedDescriptionKey]];
+
+
+    #define ERROR_NOINFO(ErrorDomain,ErrorCode) [[NSError alloc] initWithDomain:[NSString stringWithFormat:ErrorDomain] code:ErrorCode userInfo:nil];
+
+
+    #define ERROR_DICTINFO(ErrorDomain,ErrorCode,ErroeDictionary) [[NSError alloc] initWithDomain:[NSString stringWithFormat:ErrorDomain] code:ErrorCode userInfo:ErroeDictionary];
+
+#ifdef DEBUG
+
+
+//#define CLog(format, ...) NSLog(format, ##__VA_ARGS__);
+#define CLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+
+#else
+
+#define CLog(format, ...)
+
+
+#endif
+
+
+
+
+#endif
